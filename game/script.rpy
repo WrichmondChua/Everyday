@@ -22,8 +22,8 @@ label start:
 
     #Player name by default if the player entered the game w/o inputting a player name.
         if not player_name:
-            player_name = "Default"
-            
+            player_name = "Unknown"
+         
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
