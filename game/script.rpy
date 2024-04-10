@@ -19,11 +19,11 @@ label start:
     python:
         player_name = renpy.input("Please enter the protagonist's name: ", length = 32, exclude = "0123456789+=,.?!{}[]()<>[ ]-")
         player_name = playername.strip()
-
+        
     #Player name by default if the player entered the game w/o inputting a player name.
         if not player_name:
             player_name = "Default"
-            
+
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
